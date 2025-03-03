@@ -1,3 +1,5 @@
+Fork from origional addon by Paulmillband
+
 # magento 2 - Add the ability to mass delete images from product's in the product grid.
 Note: The images are removed on a global level
 
