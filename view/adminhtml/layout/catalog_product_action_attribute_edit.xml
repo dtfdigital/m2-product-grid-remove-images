@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<page>
+    <body>
+        <referenceBlock  name="attributes_tabs">
+            <block class="Paulmillband\ProductGridRemoveImages\Block\Adminhtml\Product\Edit\Action\Attribute\Tab\ImagesTab"
+               name="tab_images"
+               template="Paulmillband_ProductGridRemoveImages::catalog/product/edit/action/ImagesTab.phtml"
+            >
+            </block>
+            <action method="addTab">
+                <argument name="name" xsi:type="string">remove_images</argument>
+                <argument name="block" xsi:type="string">tab_images</argument>
+            </action>
+        </referenceBlock>
+    </body>
+</page>
