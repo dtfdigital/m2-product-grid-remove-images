@@ -1,0 +1,1 @@
+# m2-product-grid-remove-images
